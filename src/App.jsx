@@ -5,6 +5,7 @@ import "./App.css";
 import {
 	About,
 	Contact,
+	Header,
 	Portfolio,
 	Resume,
 } from "./assets/components/Index.jsx";
@@ -12,6 +13,7 @@ import {
 function App() {
 	return (
 		<>
+			<Header />
 			<div>
 				<a
 					href="https://vitejs.dev"
