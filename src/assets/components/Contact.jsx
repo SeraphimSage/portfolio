@@ -1,6 +1,7 @@
 import { Button, Row, Form, Container } from "react-bootstrap";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import "./Contact.css";
 
 const Contact = () => {
 	const [name, setName] = useState("");
@@ -83,6 +84,7 @@ const Contact = () => {
 									<h3>Name:</h3>{" "}
 								</Form.Label>
 								<Form.Control
+									size="lg"
 									type="text"
 									placeholder="Please enter your name"
 									title="Please enter your name"
@@ -98,6 +100,7 @@ const Contact = () => {
 									<h3>Email:</h3>{" "}
 								</Form.Label>
 								<Form.Control
+									size="lg"
 									type="email"
 									placeholder="Your Email Address"
 									title="Enter Your Email Address"
@@ -114,6 +117,7 @@ const Contact = () => {
 									<h3>Message:</h3>{" "}
 								</Form.Label>
 								<Form.Control
+									size="lg"
 									as="textarea"
 									rows={10}
 									placeholder="Write Your Message"
