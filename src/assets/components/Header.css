@@ -41,8 +41,6 @@
 	background: #212431;
 	color: #fff;
 	line-height: 1;
-	padding: 8px 0;
-	margin-right: 4px;
 	border-radius: 50%;
 	text-align: center;
 	width: 30px;
@@ -88,7 +86,7 @@
 
 .nav-menu * {
 	margin: 0;
-	padding: 0;
+	padding: 5px;
 	list-style: none;
 }
 
