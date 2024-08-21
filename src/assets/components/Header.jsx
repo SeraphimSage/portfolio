@@ -1,10 +1,13 @@
+import "./Header.css";
+import profileImg from "../img/Us.webp";
+
 const Header = () => {
 	return (
 		<header id="header">
 			<div className="d-flex flex-column">
 				<div className="profile">
 					<img
-						src="assets/img/Us.webp"
+						src={profileImg}
 						alt=""
 						className="img-fluid rounded-circle"
 					/>
