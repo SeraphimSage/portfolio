@@ -1,6 +1,6 @@
 // import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import logo from "./assets/img/Favicon.png";
+
 import "./App.css";
 import {
 	About,
@@ -16,21 +16,11 @@ function App() {
 			<Header />
 			<div>
 				<a
-					href="https://vitejs.dev"
-					target="_blank"
-				>
-					<img
-						src={viteLogo}
-						className="logo"
-						alt="Vite logo"
-					/>
-				</a>
-				<a
 					href="https://react.dev"
 					target="_blank"
 				>
 					<img
-						src={reactLogo}
+						src={logo}
 						className="logo seraphicIndustriesLlc"
 						alt="Seraphic Industries LLC logo"
 					/>
