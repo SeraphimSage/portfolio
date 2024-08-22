@@ -127,7 +127,7 @@ const Resume = () => {
 							</ul>
 						</div>
 						<div className="resume-item">
-							<h4>Webmaster `{"->"}` Chief of Staff</h4>
+							<h4>Webmaster {"->"} Chief of Staff</h4>
 							<h5>2018 - 2022</h5>
 							<p>
 								<em>Citizens for Decency, Rexburg, ID</em>

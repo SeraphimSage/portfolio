@@ -1,16 +1,17 @@
 import "./Header.css";
 import profileImg from "../img/Us.webp";
 import * as Icon from "react-bootstrap-icons";
+import Image from "react-bootstrap/Image";
 
 const Header = () => {
 	return (
 		<header id="header">
 			<div className="d-flex flex-column">
 				<div className="profile">
-					<img
+					<Image
 						src={profileImg}
 						alt=""
-						className="img-fluid rounded-circle"
+						roundedCircle
 					/>
 					<h1 className="text-light">
 						<a href="index.html">Kenneth Pinkerton</a>
