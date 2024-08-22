@@ -9,7 +9,7 @@ const Hero = () => {
 					<h1>Kenneth Pinkerton</h1>
 					<div>
 						<a
-							href="https://react.dev"
+							href="https://github.com/SeraphimSage"
 							target="_blank"
 						>
 							<img

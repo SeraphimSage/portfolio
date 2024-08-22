@@ -1,4 +1,6 @@
 import "./Skills.css";
+import ProgressBar from "react-bootstrap/ProgressBar";
+
 const Skills = () => {
 	return (
 		<section
@@ -23,46 +25,41 @@ const Skills = () => {
 							<span className="skill">
 								HTML <i className="val">100%</i>
 							</span>
-							<div className="progress-bar-wrap">
-								<div
-									className="progress-bar"
-									role="progressbar"
-									aria-valuenow="100"
-									aria-valuemin="0"
-									aria-valuemax="100"
-								></div>
-							</div>
+							<ProgressBar
+								animated
+								now={100}
+							/>
 						</div>
 
 						<div className="progress">
 							<span className="skill">
 								CSS <i className="val">100%</i>
 							</span>
-							<div className="progress-bar-wrap">
-								<div
-									className="progress-bar"
-									role="progressbar"
-									aria-valuenow="100"
-									aria-valuemin="0"
-									aria-valuemax="100"
-								></div>
-							</div>
+							<ProgressBar
+								animated
+								now={100}
+							/>
 						</div>
 
 						<div className="progress">
 							<span className="skill">
 								JavaScript <i className="val">80%</i>
 							</span>
-							<div className="progress-bar-wrap">
-								<div
-									className="progress-bar"
-									role="progressbar"
-									aria-valuenow="80"
-									aria-valuemin="0"
-									aria-valuemax="100"
-								></div>
-							</div>
+							<ProgressBar
+								animated
+								now={80}
+							/>
 						</div>
+
+						{/* <div className="progress">
+							<span className="skill">
+								AWS <i className="val">10%</i>
+							</span>
+							<ProgressBar
+								animated
+								now={10}
+							/>
+						</div> */}
 					</div>
 
 					<div
@@ -74,45 +71,30 @@ const Skills = () => {
 							<span className="skill">
 								React <i className="val">60%</i>
 							</span>
-							<div className="progress-bar-wrap">
-								<div
-									className="progress-bar"
-									role="progressbar"
-									aria-valuenow="60"
-									aria-valuemin="0"
-									aria-valuemax="100"
-								></div>
-							</div>
+							<ProgressBar
+								animated
+								now={60}
+							/>
 						</div>
 
 						<div className="progress">
 							<span className="skill">
 								Python <i className="val">90%</i>
 							</span>
-							<div className="progress-bar-wrap">
-								<div
-									className="progress-bar"
-									role="progressbar"
-									aria-valuenow="90"
-									aria-valuemin="0"
-									aria-valuemax="100"
-								></div>
-							</div>
+							<ProgressBar
+								animated
+								now={90}
+							/>
 						</div>
 
 						<div className="progress">
 							<span className="skill">
 								RestFUL API&apos;s <i className="val">70%</i>
 							</span>
-							<div className="progress-bar-wrap">
-								<div
-									className="progress-bar"
-									role="progressbar"
-									aria-valuenow="70"
-									aria-valuemin="0"
-									aria-valuemax="100"
-								></div>
-							</div>
+							<ProgressBar
+								animated
+								now={70}
+							/>
 						</div>
 					</div>
 				</div>

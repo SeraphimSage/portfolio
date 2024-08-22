@@ -61,7 +61,14 @@ const Header = () => {
 								<Icon.CardList /> <span>Resume</span>
 							</a>
 						</li>
-
+						<li>
+							<a
+								href="#portfolio"
+								className="nav-link scrollto"
+							>
+								<Icon.Bookshelf /> <span>Portfolio</span>
+							</a>
+						</li>
 						<li>
 							<a
 								href="#contact"
