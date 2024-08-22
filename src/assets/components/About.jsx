@@ -1,10 +1,11 @@
+import "./About.css";
 const About = () => {
 	return (
 		<section
 			id="about"
 			className="about"
 		>
-			<div className="container">
+			<div className="content">
 				<div className="section-title">
 					<h2>About</h2>
 					<p>
