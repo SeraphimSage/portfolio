@@ -1,4 +1,4 @@
-import "./Skills.css";
+import "../css/Skills.css";
 import ProgressBar from "react-bootstrap/ProgressBar";
 
 const Skills = () => {

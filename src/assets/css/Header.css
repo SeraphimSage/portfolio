@@ -54,30 +54,8 @@
 	text-decoration: none;
 }
 
-#main {
+#content-holder {
 	margin-left: 300px;
-}
-
-.container,
-.container-fluid {
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
-@media (max-width: 1199px) {
-	#header {
-		left: -300px;
-	}
-
-	#main {
-		margin-left: 0;
-	}
-
-	.container,
-	.container-fluid {
-		padding-left: 12px;
-		padding-right: 12px;
-	}
 }
 
 .nav-menu {
@@ -157,4 +135,26 @@
 
 .mobile-nav-active #header {
 	left: 0;
+}
+
+.container,
+.container-fluid {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+@media (max-width: 1199px) {
+	#header {
+		left: -300px;
+	}
+
+	#content-holder {
+		margin-left: 0;
+	}
+
+	.container,
+	.container-fluid {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
 }

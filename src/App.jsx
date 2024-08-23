@@ -15,12 +15,14 @@ function App() {
 	return (
 		<>
 			<Header />
-			<Hero />
-			<About />
-			<Skills />
-			<Resume />
-			<Portfolio />
-			<Contact />
+			<div className="content-holder">
+				<Hero />
+				<About />
+				<Skills />
+				<Resume />
+				<Portfolio />
+				<Contact />
+			</div>
 		</>
 	);
 }

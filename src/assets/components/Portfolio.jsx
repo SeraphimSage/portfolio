@@ -1,4 +1,4 @@
-import "./Portfolio.css";
+import "../css/Portfolio.css";
 const Portfolio = () => {
 	return (
 		<section

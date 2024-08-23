@@ -1,4 +1,4 @@
-import "./Header.css";
+import "../css/Header.css";
 import profileImg from "../img/Us.webp";
 import * as Icon from "react-bootstrap-icons";
 import Image from "react-bootstrap/Image";

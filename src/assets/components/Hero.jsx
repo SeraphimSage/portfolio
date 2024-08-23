@@ -1,4 +1,4 @@
-import "./Hero.css";
+import "../css/Hero.css";
 import logo from "../img/Favicon.png";
 
 const Hero = () => {
