@@ -14,7 +14,7 @@ const About = () => {
 			<div className="content">
 				<div className="section-title">
 					<h2>About</h2>
-					<p>
+					<p className="summary">
 						Dynamic Web Developer with a solid reputation for creative and
 						collaborative implementations of cutting-edge web applications.
 						Focused on full-system support to enhance team efficiency and reduce

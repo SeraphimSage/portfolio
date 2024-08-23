@@ -15,7 +15,7 @@ const Resume = () => {
 			<div className="container">
 				<div className="section-title">
 					<h2>Resume</h2>
-					<p>
+					<p className="summary">
 						I&apos;m a software engineer with a business background. I excel in
 						full-stack development and team leadership, driving efficiency and
 						innovation to deliver impactful solutions that enhance user

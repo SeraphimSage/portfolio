@@ -14,11 +14,15 @@ const Portfolio = () => {
 			<div className="container">
 				<div className="section-title">
 					<h2>Portfolio</h2>
-					<p>
-						Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-						aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-						quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-						fugiat sit in iste officiis commodi quidem hic quas.
+					<p className="summary">
+						I am a passionate and creative web developer who excels in producing
+						responsive, accessible websites that provoke positive user
+						interactions. The below examples of projects I have completed that
+						show off the extent of my work through various web services,
+						showcasing an understanding in both front and backend development as
+						well as a commitment to clean succinct code. Every project reflects
+						my skills to handle complex problems, using modern technologies and
+						being adaptable as web changes.
 					</p>
 				</div>
 

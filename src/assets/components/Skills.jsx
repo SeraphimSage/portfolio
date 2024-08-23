@@ -16,7 +16,7 @@ const Skills = () => {
 			<div className="container">
 				<div className="section-title">
 					<h2>Skills</h2>
-					<p>
+					<p className="summary">
 						These are some of the skills I am most familiar and comfortable
 						with.
 					</p>

@@ -41,7 +41,7 @@ const Contact = () => {
 			<div className="container">
 				<div className="section-title">
 					<h2>Contact</h2>
-					<p>
+					<p className="summary">
 						I am available for both web development and business consultation
 						roles, as well as freelancing. For any questions please feel free to
 						reach out to me through e-mail or the form provided below.
