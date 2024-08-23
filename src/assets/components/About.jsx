@@ -1,5 +1,11 @@
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.js";
 import "../css/About.css";
 const About = () => {
+	useEffect(() => {
+		Aos.init();
+	}, []);
 	return (
 		<section
 			id="about"
@@ -16,6 +22,20 @@ const About = () => {
 					</p>
 					<h3>Business Consultant &amp; Full-Stack Web Developer.</h3>
 					<div className="row">
+						<div
+							className="col-lg-4"
+							data-aos="fade-right"
+						>
+							<img
+								src="assets/img/Screenshot_20221210_135737_Facebook.webp"
+								className="img-fluid"
+								alt=""
+							/>
+						</div>
+						<div
+							className="col-lg-8 pt-4 pt-lg-0 content"
+							data-aos="fade-left"
+						></div>
 						<div className="col-lg-6">
 							<ul>
 								<li>

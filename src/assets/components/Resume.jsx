@@ -1,6 +1,12 @@
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.js";
 import "../css/Resume.css";
 
 const Resume = () => {
+	useEffect(() => {
+		Aos.init();
+	}, []);
 	return (
 		<section
 			id="resume"

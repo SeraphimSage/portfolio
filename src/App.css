@@ -1,7 +1,10 @@
 #root {
-	max-width: 1280px;
+	display: flex;
+	/* max-width: 1280px; */
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
+	height: 100vh;
 }
 
 body {
@@ -9,10 +12,8 @@ body {
 	color: #272829;
 }
 
-#content-holder {
-	background-color: black;
-	width: 100%;
-	display: flex;
+.content-holder {
+	margin-left: 300px;
 	flex-grow: 1;
 }
 
@@ -71,4 +72,3 @@ section {
 .section-title p {
 	margin-bottom: 0;
 }
-

@@ -97,7 +97,7 @@
 .nav-menu .active:focus,
 .nav-menu li:hover > a {
 	text-decoration: none;
-	color: #fff;
+	color: #fdfdff;
 }
 
 .nav-menu a:hover .bi,
@@ -118,7 +118,7 @@
 	transition: all 0.4s;
 	outline: none !important;
 	background-color: #149ddd;
-	color: #fff;
+	color: #040b14;
 	width: 40px;
 	height: 40px;
 	display: inline-flex;
@@ -148,7 +148,7 @@
 		left: -300px;
 	}
 
-	#content-holder {
+	.content-holder {
 		margin-left: 0;
 	}
 

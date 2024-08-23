@@ -1,5 +1,11 @@
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.js";
 import "../css/Portfolio.css";
 const Portfolio = () => {
+	useEffect(() => {
+		Aos.init();
+	}, []);
 	return (
 		<section
 			id="portfolio"
