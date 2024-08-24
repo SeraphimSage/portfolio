@@ -1,7 +1,7 @@
+import "../css/Resume.CSS";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.js";
-import "../css/Resume.css";
 
 const Resume = () => {
 	useEffect(() => {
@@ -31,18 +31,6 @@ const Resume = () => {
 						<h3 className="resume-title">Sumary</h3>
 						<div className="resume-item pb-0">
 							<h4>Kenneth Pinkerton</h4>
-							<p>
-								<em>
-									I&apos;m a dynamic Web Developer with a solid reputation for
-									creative and collaborative implementations of cutting-edge web
-									applications. I focus on full-stack/system support to enhance
-									team efficiency and reduce operations time.
-								</em>
-							</p>
-							<ul>
-								<li>Tulsa, OK 74135</li>
-								<li>kenneth.pinkerton90@gmail.com</li>
-							</ul>
 						</div>
 
 						<h3 className="resume-title">Education</h3>

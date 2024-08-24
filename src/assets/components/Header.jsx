@@ -20,12 +20,14 @@ const Header = () => {
 						<a
 							href="https://www.facebook.com/kenneth.pinkerton.90"
 							className="facebook"
+							target="_blank"
 						>
 							<Icon.Facebook />
 						</a>
 						<a
 							href="https://www.linkedin.com/in/kenneth-pinkerton-5b8a1463/"
 							className="linkedin"
+							target="_blank"
 						>
 							<Icon.Linkedin />
 						</a>
