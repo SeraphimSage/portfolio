@@ -19,6 +19,28 @@
 	}
 }
 
+.wrapper {
+	display: inline-flex;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Poppins", sans-serif;
+}
+
+.wrapper .static-text {
+	font-size: larger;
+	font-weight: 400;
+	margin-right: 10px;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
 @media (prefers-reduced-motion: no-preference) {
 	a:nth-of-type(1) .logo {
 		animation: logo-spin infinite 20s linear;
@@ -34,6 +56,9 @@
 	background-repeat: round;
 	background-size: contain;
 	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #hero:before {
@@ -51,9 +76,17 @@
 	position: relative;
 	z-index: 2;
 	min-width: 300px;
+	justify-content: center;
 }
 
-#hero h1 {
+.name-profile-container {
+	display: flex;
+	align-items: center; /* Aligns items vertically in the center */
+	gap: 15px; /* Space between the name and profile logo */
+	padding-bottom: 20vh;
+}
+
+#hero .developer-name {
 	margin: 0 0 10px 0;
 	font-size: 64px;
 	font-weight: 700;
@@ -61,18 +94,36 @@
 	color: #fff;
 }
 
-#hero p {
+.gitHub-profile {
+	display: flex;
+	align-items: center; /* Ensures the logo is centered vertically with the text */
+}
+
+#hero .wrapper {
 	color: #fff;
 	margin-bottom: 50px;
 	font-size: 26px;
 	font-family: "Poppins", sans-serif;
 }
 
-#hero p span {
-	color: #fff;
-	padding-bottom: 4px;
-	letter-spacing: 1px;
-	border-bottom: 3px solid #149ddd;
+#hero .dynamic-text {
+	font-size: larger;
+	font-weight: 400;
+}
+
+#hero .dynamic-text span {
+	position: relative;
+	display: inline-block;
+}
+
+#hero .dynamic-text span::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 5px; /* Adjust this value to move the underline up or down */
+	height: 3px; /* Height of the "border" */
+	background-color: #149ddd; /* Color of the "border" */
 }
 
 @media (min-width: 1024px) {

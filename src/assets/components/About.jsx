@@ -38,7 +38,7 @@ const About = () => {
 						></div>
 						<div className="col-lg-6">
 							<ul>
-								<li>
+								{/* <li>
 									<i className="bi bi-chevron-right"></i>
 									<strong>Website: </strong>
 									<span>
@@ -46,7 +46,7 @@ const About = () => {
 											www.seraphicindustries.net
 										</a>
 									</span>
-								</li>
+								</li> */}
 								<li>
 									<i className="bi bi-chevron-right"></i>
 									<strong>City: </strong> <span>Tulsa, OK</span>

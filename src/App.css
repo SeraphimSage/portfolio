@@ -17,6 +17,10 @@ body {
 	flex-grow: 1;
 }
 
+.content {
+	padding-left: 5px;
+}
+
 a {
 	color: #149ddd;
 	text-decoration: none;
