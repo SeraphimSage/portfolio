@@ -1,11 +1,6 @@
-import { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.js";
+import { Fade } from "react-awesome-reveal";
 import "../css/About.css";
 const About = () => {
-	useEffect(() => {
-		Aos.init();
-	}, []);
 	return (
 		<section
 			id="about"
@@ -22,20 +17,14 @@ const About = () => {
 					</p>
 					<h3>Business Consultant &amp; Full-Stack Web Developer.</h3>
 					<div className="row">
-						<div
-							className="col-lg-4"
-							data-aos="fade-right"
-						>
+						<Fade className="col-lg-4">
 							<img
-								src="assets/img/Screenshot_20221210_135737_Facebook.webp"
+								src="../img/headshot.png"
 								className="img-fluid"
-								alt=""
+								alt="personal headshot on white background"
 							/>
-						</div>
-						<div
-							className="col-lg-8 pt-4 pt-lg-0 content"
-							data-aos="fade-left"
-						></div>
+						</Fade>
+						<Fade className="col-lg-8 pt-4 pt-lg-0 content"></Fade>
 						<div className="col-lg-6">
 							<ul>
 								{/* <li>

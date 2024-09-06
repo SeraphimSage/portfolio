@@ -1,13 +1,9 @@
-import { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.js";
+import { Fade } from "react-awesome-reveal";
+
 import "../css/Skills.css";
 import ProgressBar from "react-bootstrap/ProgressBar";
 
 const Skills = () => {
-	useEffect(() => {
-		Aos.init();
-	}, []);
 	return (
 		<section
 			id="skills"
@@ -23,10 +19,7 @@ const Skills = () => {
 				</div>
 
 				<div className="row skills-content">
-					<div
-						className="col-lg-6"
-						data-aos="fade-up"
-					>
+					<Fade className="col-lg-6">
 						<div className="progress">
 							<span className="skill">
 								HTML <i className="val">100%</i>
@@ -66,12 +59,11 @@ const Skills = () => {
 								now={10}
 							/>
 						</div> */}
-					</div>
+					</Fade>
 
-					<div
+					<Fade
 						className="col-lg-6"
-						data-aos="fade-up"
-						data-aos-delay="100"
+						delay={200}
 					>
 						<div className="progress">
 							<span className="skill">
@@ -102,7 +94,7 @@ const Skills = () => {
 								now={70}
 							/>
 						</div>
-					</div>
+					</Fade>
 				</div>
 			</div>
 		</section>

@@ -1,11 +1,8 @@
-import { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.js";
+import { Fade } from "react-awesome-reveal";
+import * as Icon from "react-bootstrap-icons";
+
 import "../css/Portfolio.css";
 const Portfolio = () => {
-	useEffect(() => {
-		Aos.init();
-	}, []);
 	return (
 		<section
 			id="portfolio"
@@ -26,32 +23,23 @@ const Portfolio = () => {
 					</p>
 				</div>
 
-				<div
-					className="row"
-					data-aos="fade-up"
-				></div>
+				<Fade className="row"></Fade>
 
 				<div className="col-lg-4 col-md-6 portfolio-item filter-web">
 					<div className="portfolio-wrap">
 						<img
-							src="assets/img/portfolio/portfolio-9.jpg"
+							src="../img/ToDo-App-Demo.gif"
 							className="img-fluid"
-							alt=""
+							alt="Animated demonstration of ToDo App"
 						/>
 						<div className="portfolio-links">
 							<a
-								href="assets/img/portfolio/portfolio-9.jpg"
-								data-gallery="portfolioGallery"
+								href="https://seraphimsage.github.io/todo-app-part-2/"
 								className="portfolio-lightbox"
+								target="_blank"
 								title="Web 3"
 							>
-								<i className="bx bx-plus"></i>
-							</a>
-							<a
-								href="portfolio-details.html"
-								title="More Details"
-							>
-								<i className="bx bx-link"></i>
+								<Icon.Box></Icon.Box>
 							</a>
 						</div>
 					</div>

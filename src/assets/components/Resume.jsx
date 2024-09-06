@@ -1,12 +1,7 @@
-import { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.js";
+import { Fade } from "react-awesome-reveal";
 import "../css/Resume.css";
 
 const Resume = () => {
-	useEffect(() => {
-		Aos.init();
-	}, []);
 	return (
 		<section
 			id="resume"
@@ -24,10 +19,7 @@ const Resume = () => {
 				</div>
 
 				<div className="row">
-					<div
-						className="col-lg-6"
-						data-aos="fade-up"
-					>
+					<Fade className="col-lg-6">
 						<h3 className="resume-title">Sumary</h3>
 						<div className="resume-item pb-0">
 							<h4>Kenneth Pinkerton</h4>
@@ -65,12 +57,8 @@ const Resume = () => {
 								(AWS).
 							</p>
 						</div>
-					</div>
-					<div
-						className="col-lg-6"
-						data-aos="fade-up"
-						data-aos-delay="100"
-					>
+					</Fade>
+					<Fade className="col-lg-6">
 						<h3 className="resume-title">Professional Experience</h3>
 						<div className="resume-item">
 							<div className="resume-item">
@@ -157,7 +145,7 @@ const Resume = () => {
 								</li>
 							</ul>
 						</div>
-					</div>
+					</Fade>
 				</div>
 			</div>
 		</section>

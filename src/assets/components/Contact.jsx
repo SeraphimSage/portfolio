@@ -133,8 +133,6 @@ const Contact = () => {
 							<Form.Group className="btn-row">
 								<Button
 									type="submit"
-									enable-button-pointers
-									border
 									title="Submit Your Message"
 								>
 									{" "}

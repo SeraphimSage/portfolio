@@ -1,3 +1,6 @@
+.skills-content {
+	border: 1px soli red;
+}
 .skills .progress {
 	height: 60px;
 	display: block;
