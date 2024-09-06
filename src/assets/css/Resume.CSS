@@ -5,3 +5,8 @@
 .resume-item ul li {
 	padding-bottom: 10px;
 }
+
+.col-lg-6 {
+	display: flex;
+	flex-direction: column;
+}
