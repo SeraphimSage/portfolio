@@ -26,9 +26,10 @@ const About = () => {
 							/>
 						</Fade>
 						<Fade className="col-lg-8 pt-4 pt-lg-0 content">
-							<div className="col-lg-6">
-								<ul>
-									{/* <li>
+							<div className="row">
+								<div className="col-lg-6">
+									<ul>
+										{/* <li>
 									<i className="bi bi-chevron-right"></i>
 									<strong>Website: </strong>
 									<span>
@@ -37,28 +38,29 @@ const About = () => {
 										</a>
 									</span>
 								</li> */}
-									<li>
-										<i className="bi bi-chevron-right"></i>
-										<strong>City: </strong> <span>Tulsa, OK</span>
-									</li>
-								</ul>
-							</div>
-							<div className="col-lg-6">
-								<ul>
-									<li>
-										<i className="bi bi-chevron-right"></i>
-										<strong>Degree: </strong> <span>Bachelor</span>
-									</li>
-									<li>
-										<i className="bi bi-chevron-right"></i>
-										<strong>Email: </strong>
-										<span>kenneth.pinkerton90@gmail.com</span>
-									</li>
-									<li>
-										<i className="bi bi-chevron-right"></i>
-										<strong>Freelance: </strong> <span>Available</span>
-									</li>
-								</ul>
+										<li>
+											<i className="bi bi-chevron-right"></i>
+											<strong>City: </strong> <span>Tulsa, OK</span>
+										</li>
+									</ul>
+								</div>
+								<div className="col-lg-6">
+									<ul>
+										<li>
+											<i className="bi bi-chevron-right"></i>
+											<strong>Degree: </strong> <span>Bachelor</span>
+										</li>
+										<li>
+											<i className="bi bi-chevron-right"></i>
+											<strong>Email: </strong>
+											<span>kenneth.pinkerton90@gmail.com</span>
+										</li>
+										<li>
+											<i className="bi bi-chevron-right"></i>
+											<strong>Freelance: </strong> <span>Available</span>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</Fade>
 					</div>
