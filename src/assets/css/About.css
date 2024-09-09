@@ -32,3 +32,8 @@
 .about .content p:last-child {
 	margin-bottom: 0;
 }
+
+.about img {
+	max-width: 100%;
+	height: auto;
+}

@@ -1,5 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import "../css/About.css";
+import Headshot from "../img/headshot.png";
 const About = () => {
 	return (
 		<section
@@ -19,15 +20,15 @@ const About = () => {
 					<div className="row">
 						<Fade className="col-lg-4">
 							<img
-								src="../img/headshot.png"
+								src={Headshot}
 								className="img-fluid"
 								alt="personal headshot on white background"
 							/>
 						</Fade>
-						<Fade className="col-lg-8 pt-4 pt-lg-0 content"></Fade>
-						<div className="col-lg-6">
-							<ul>
-								{/* <li>
+						<Fade className="col-lg-8 pt-4 pt-lg-0 content">
+							<div className="col-lg-6">
+								<ul>
+									{/* <li>
 									<i className="bi bi-chevron-right"></i>
 									<strong>Website: </strong>
 									<span>
@@ -36,29 +37,30 @@ const About = () => {
 										</a>
 									</span>
 								</li> */}
-								<li>
-									<i className="bi bi-chevron-right"></i>
-									<strong>City: </strong> <span>Tulsa, OK</span>
-								</li>
-							</ul>
-						</div>
-						<div className="col-lg-6">
-							<ul>
-								<li>
-									<i className="bi bi-chevron-right"></i>
-									<strong>Degree: </strong> <span>Bachelor</span>
-								</li>
-								<li>
-									<i className="bi bi-chevron-right"></i>
-									<strong>Email: </strong>
-									<span>kenneth.pinkerton90@gmail.com</span>
-								</li>
-								<li>
-									<i className="bi bi-chevron-right"></i>
-									<strong>Freelance: </strong> <span>Available</span>
-								</li>
-							</ul>
-						</div>
+									<li>
+										<i className="bi bi-chevron-right"></i>
+										<strong>City: </strong> <span>Tulsa, OK</span>
+									</li>
+								</ul>
+							</div>
+							<div className="col-lg-6">
+								<ul>
+									<li>
+										<i className="bi bi-chevron-right"></i>
+										<strong>Degree: </strong> <span>Bachelor</span>
+									</li>
+									<li>
+										<i className="bi bi-chevron-right"></i>
+										<strong>Email: </strong>
+										<span>kenneth.pinkerton90@gmail.com</span>
+									</li>
+									<li>
+										<i className="bi bi-chevron-right"></i>
+										<strong>Freelance: </strong> <span>Available</span>
+									</li>
+								</ul>
+							</div>
+						</Fade>
 					</div>
 				</div>
 			</div>

@@ -1,6 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import * as Icon from "react-bootstrap-icons";
-
+import ToDoGif from "../img/ToDo-App-Demo.gif";
 import "../css/Portfolio.css";
 const Portfolio = () => {
 	return (
@@ -28,7 +28,7 @@ const Portfolio = () => {
 				<div className="col-lg-4 col-md-6 portfolio-item filter-web">
 					<div className="portfolio-wrap">
 						<img
-							src="../img/ToDo-App-Demo.gif"
+							src={ToDoGif}
 							className="img-fluid"
 							alt="Animated demonstration of ToDo App"
 						/>
