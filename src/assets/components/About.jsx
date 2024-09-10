@@ -1,4 +1,5 @@
 import { Fade } from "react-awesome-reveal";
+import * as Icon from "react-bootstrap-icons";
 import "../css/About.css";
 import Headshot from "../img/headshot.png";
 const About = () => {
@@ -30,7 +31,7 @@ const About = () => {
 								<div className="col-lg-6">
 									<ul>
 										{/* <li>
-									<i className="bi bi-chevron-right"></i>
+									<Icon.ChevronRight />
 									<strong>Website: </strong>
 									<span>
 										<a href="https://www.seraphicindustries.net">
@@ -39,7 +40,7 @@ const About = () => {
 									</span>
 								</li> */}
 										<li>
-											<i className="bi bi-chevron-right"></i>
+											<Icon.ChevronRight />
 											<strong>City: </strong> <span>Tulsa, OK</span>
 										</li>
 									</ul>
@@ -47,16 +48,16 @@ const About = () => {
 								<div className="col-lg-6">
 									<ul>
 										<li>
-											<i className="bi bi-chevron-right"></i>
+											<Icon.ChevronRight />
 											<strong>Degree: </strong> <span>Bachelor</span>
 										</li>
 										<li>
-											<i className="bi bi-chevron-right"></i>
+											<Icon.ChevronRight />
 											<strong>Email: </strong>
 											<span>kenneth.pinkerton90@gmail.com</span>
 										</li>
 										<li>
-											<i className="bi bi-chevron-right"></i>
+											<Icon.ChevronRight />
 											<strong>Freelance: </strong> <span>Available</span>
 										</li>
 									</ul>
