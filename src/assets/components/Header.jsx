@@ -57,6 +57,14 @@ const Header = () => {
 						</li>
 						<li>
 							<a
+								href="#skills"
+								className="nav-link scrollto"
+							>
+								<Icon.Activity /> <span>Skills</span>
+							</a>
+						</li>
+						<li>
+							<a
 								href="#resume"
 								className="nav-link scrollto"
 							>
