@@ -117,26 +117,27 @@
 	border-bottom: 1px solid #eee;
 }
 
-.col-lg-12 .portfolio-info ul {
+.portfolio-info ul {
 	list-style: none;
 	padding: 0;
 	font-size: 15px;
 }
 
-.col-lg-12 .portfolio-info ul li + li {
+.portfolio-info ul li + li {
 	margin-top: 10px;
 }
 
-.col-lg-12 .portfolio-description {
+.portfolio-description {
 	padding-top: 30px;
 }
 
-.col-lg-12 .portfolio-description h2 {
+.portfolio-description h2 {
 	font-size: 26px;
 	font-weight: 700;
 	margin-bottom: 20px;
+	text-align: center;
 }
 
-.col-lg-12 .portfolio-description p {
+.portfolio-description p {
 	padding: 0;
 }
