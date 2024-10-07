@@ -59,6 +59,10 @@ const Portfolio = () => {
 										<strong>Category</strong>: Web design
 									</li>
 									<li>
+										<strong>Demonstration</strong>: Create-Read-Update-Delete
+										(CRUD)
+									</li>
+									<li>
 										<strong>Client</strong>: Kenzie Academy
 									</li>
 									<li>
@@ -113,6 +117,9 @@ const Portfolio = () => {
 								<ul>
 									<li>
 										<strong>Category</strong>: Web design
+									</li>
+									<li>
+										<strong>Demonstration</strong>: Cloned site
 									</li>
 									<li>
 										<strong>Client</strong>: Kenzie Academy
@@ -138,7 +145,7 @@ const Portfolio = () => {
 						</div>
 					</div>
 					<div className="row">
-						{/* First Portfolio Item */}
+						{/* Third Portfolio Item */}
 						<div className="col-lg-6 col-md-6 portfolio-item">
 							<div className="portfolio-wrap">
 								<img
@@ -170,6 +177,9 @@ const Portfolio = () => {
 								<ul>
 									<li>
 										<strong>Category</strong>: Web design
+									</li>
+									<li>
+										<strong>Demonstration</strong>: API-connected site
 									</li>
 									<li>
 										<strong>Client</strong>: Kenzie Academy
@@ -194,7 +204,7 @@ const Portfolio = () => {
 							</div>
 						</div>
 
-						{/* Second Portfolio Item */}
+						{/* Fourth Portfolio Item */}
 						<div className="col-lg-6 col-md-6 portfolio-item">
 							<div className="portfolio-wrap">
 								<img
@@ -226,6 +236,9 @@ const Portfolio = () => {
 								<ul>
 									<li>
 										<strong>Category</strong>: Web design
+									</li>
+									<li>
+										<strong>Demonstration</strong>: Perfect-Score site
 									</li>
 									<li>
 										<strong>Client</strong>: Kenzie Academy
