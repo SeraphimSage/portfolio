@@ -22,62 +22,7 @@ const Skills = () => {
 					<Fade className="col-lg-6">
 						<div className="progress">
 							<span className="skill">
-								HTML <i className="val">100%</i>
-							</span>
-							<ProgressBar
-								animated
-								now={100}
-							/>
-						</div>
-
-						<div className="progress">
-							<span className="skill">
-								CSS <i className="val">100%</i>
-							</span>
-							<ProgressBar
-								animated
-								now={100}
-							/>
-						</div>
-
-						<div className="progress">
-							<span className="skill">
-								JavaScript <i className="val">80%</i>
-							</span>
-							<ProgressBar
-								animated
-								now={80}
-							/>
-						</div>
-
-						{/* <div className="progress">
-							<span className="skill">
-								AWS <i className="val">10%</i>
-							</span>
-							<ProgressBar
-								animated
-								now={10}
-							/>
-						</div> */}
-					</Fade>
-
-					<Fade
-						className="col-lg-6"
-						delay={200}
-					>
-						<div className="progress">
-							<span className="skill">
-								React <i className="val">60%</i>
-							</span>
-							<ProgressBar
-								animated
-								now={60}
-							/>
-						</div>
-
-						<div className="progress">
-							<span className="skill">
-								Python <i className="val">90%</i>
+								HTML <i className="val">9 years</i>
 							</span>
 							<ProgressBar
 								animated
@@ -87,11 +32,66 @@ const Skills = () => {
 
 						<div className="progress">
 							<span className="skill">
-								RestFUL API&apos;s <i className="val">70%</i>
+								CSS <i className="val">9 years</i>
 							</span>
 							<ProgressBar
 								animated
-								now={70}
+								now={90}
+							/>
+						</div>
+
+						<div className="progress">
+							<span className="skill">
+								JavaScript <i className="val">9 years</i>
+							</span>
+							<ProgressBar
+								animated
+								now={90}
+							/>
+						</div>
+
+						<div className="progress">
+							<span className="skill">
+								AWS <i className="val">1 year</i>
+							</span>
+							<ProgressBar
+								animated
+								now={10}
+							/>
+						</div>
+					</Fade>
+
+					<Fade
+						className="col-lg-6"
+						delay={200}
+					>
+						<div className="progress">
+							<span className="skill">
+								React <i className="val">4 years</i>
+							</span>
+							<ProgressBar
+								animated
+								now={40}
+							/>
+						</div>
+
+						<div className="progress">
+							<span className="skill">
+								Python <i className="val">4 years</i>
+							</span>
+							<ProgressBar
+								animated
+								now={40}
+							/>
+						</div>
+
+						<div className="progress">
+							<span className="skill">
+								RestFUL API&apos;s <i className="val">9 years</i>
+							</span>
+							<ProgressBar
+								animated
+								now={90}
 							/>
 						</div>
 					</Fade>
